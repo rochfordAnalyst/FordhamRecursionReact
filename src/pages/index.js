@@ -146,9 +146,10 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         <br />
         <span style={headingAccentStyles}>2014-2021 mortgage, population, social and governance indicators Dataset</span>
-        <p>Site created by Brian Rochford</p>
+        
         <p>Data Source: Recursions HMDA Analyzer</p>
       </h1>
+          <p>Created by Brian Rochford, Dr.Chang, Dr.Wang, Dr.Yan</p>
       
       <ul style={listStyles}>
         <li style={docLinkStyle}>
