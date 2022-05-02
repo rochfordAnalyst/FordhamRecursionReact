@@ -144,10 +144,10 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Recursion Data site created by Brian Rochford
         <br />
-        <span style={headingAccentStyles}>2014-2021 Political Party Controls by Regions and possible Effects on Mortgage Industry</span>
-        
+        <span style={headingAccentStyles}>2014-2021 mortgage, population, social and governance indicators Dataset</span>
+        <p>Site created by Brian Rochford</p>
+        <p>Data Source: Recursions HMDA Analyzer</p>
       </h1>
       
       <ul style={listStyles}>
