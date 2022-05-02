@@ -10,11 +10,15 @@ const pageStyles = {
 
 const headingStyles = {
   marginTop: 0,
+  paddingLeft:18,
   marginBottom: 15,
   maxWidth: 1500,
 }
 const headingAccentStyles = {
   color: "#663399",
+  marginTop: 0,
+  marginBottom: 15,
+  maxWidth: 1500,
 }
 const paragraphStyles = {
   marginTop:21,
@@ -142,10 +146,8 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Recursion Data site created by Brian Rochford
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        <span style={headingAccentStyles}>2014-2021 Political Party Controls by Regions and possible Effects on Mortgage Industry</span>
+        
       </h1>
       
       <ul style={listStyles}>
