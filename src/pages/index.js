@@ -69,11 +69,6 @@ const descriptionStyle = {
   lineHeight: 1.25,
 }
 
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
 
 const badgeStyle = {
   color: "#fff",
@@ -94,8 +89,8 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
+    text: "Mortgage Application Count by DemToRepubCounty, State, Race, Year",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/allYearsRecursionUserOptions/ItemCountbyDemToRepubCountyStateRaceandYear?publish=yes",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
     color: "#E95800",
@@ -111,14 +106,14 @@ const links = [
     text: "Reference Guides",
     url: "https://www.gatsbyjs.com/docs/reference/",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "",
     color: "#BC027F",
   },
   {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    text: "Code Glossary Book",
+    url: "https://docs.google.com/document/d/1wTHueSJ9YGJQ2onokbuhqsd9ee_88npSZE4-ynwOru4/edit",
     description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
+      "Interpretting each column, the possible values they may have, and their purpose in the study (if applicable)",
     color: "#0D96F2",
   },
   {
@@ -149,7 +144,7 @@ const IndexPage = () => {
         
         <p>Data Source: Recursions HMDA Analyzer</p>
       </h1>
-          <p>Created by Brian Rochford, Dr.Chang, Dr.Wang, Dr.Yan</p>
+          <p style={paragraphStyles}>Created by Brian Rochford, Dr.Chang, Dr.Wang, Dr.Yan</p>
       
       <ul style={listStyles}>
         <li style={docLinkStyle}>
