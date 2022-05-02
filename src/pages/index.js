@@ -1,24 +1,41 @@
 import * as React from "react"
 
 // styles
+// styles
 const pageStyles = {
   color: "#232129",
-  padding: 96,
+  padding: 0,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
+
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
+  marginBottom: 15,
+  maxWidth: 1500,
 }
 const headingAccentStyles = {
   color: "#663399",
 }
-
-
+const paragraphStyles = {
+  marginTop:21,
+  paddingLeft:18,
+  marginBottom: 25,
+}
+const subtitleStyles = {
+  marginTop:25,
+  paddingLeft:18,
+  marginBottom: 35,
+}
+const codeStyles = {
+  color: "#8A6534",
+  padding: 4,
+  backgroundColor: "#FFF4DB",
+  fontSize: "1.25rem",
+  borderRadius: 4,
+}
 const listStyles = {
   marginBottom: 96,
-  paddingLeft: 0,
+  paddingLeft: 30,
 }
 const listItemStyles = {
   fontWeight: 300,
