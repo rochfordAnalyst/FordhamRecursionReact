@@ -90,14 +90,14 @@ const links = [
     text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/DemToRepubCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagDemToRepubCountyStateRaceandYear?publish=yes",
     description:
-      "Item Count Distribution based on multiple dimension options in dataset",
+      "Item count line chart by State over time. Dimensions to filter include demToRepubCountyFlip, Low Income Area, Year, Race, State ",
     color: "#E95800",
   },
   {
     text: "Mortgage Application Count by RepubToDemCounty, FHFA LowIncomeArea, State, Race, Year",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/RepubToDemCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagRepubToDemCountyStateRaceandYear?publish=yes",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
+      "Item count line chart by State over time. Dimensions to filter include repubToDemCountyFlip, Low Income Area, Year, Race, State",
     color: "#1099A8",
   },
   {
@@ -125,14 +125,6 @@ const links = [
     description:
       "Purchasing Single Family Home Mortgage applications from 2014-2021 in 24 states that at some point in time went through political change at the Congressional District Level.",
     color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
   },
 ]
 
