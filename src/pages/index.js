@@ -47,7 +47,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#585858",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
