@@ -37,12 +37,12 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  paddingLeft: 30,
+  paddingLeft: 100,
 }
 const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
-  maxWidth: 560,
+  maxWidth: 1000,
   marginBottom: 30,
 }
 
