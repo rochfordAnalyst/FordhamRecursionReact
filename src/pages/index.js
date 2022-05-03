@@ -9,13 +9,13 @@ const pageStyles = {
 }
 
 const headingStyles = {
-  color: "#663399",
+  color: "#900028",
   marginTop: 0,
   marginBottom: 15,
   maxWidth: 1500,
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#900028",
 
 }
 const paragraphStyles = {
