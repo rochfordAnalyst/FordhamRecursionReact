@@ -10,15 +10,12 @@ const pageStyles = {
 
 const headingStyles = {
   marginTop: 0,
-  paddingLeft:18,
   marginBottom: 15,
   maxWidth: 1500,
 }
 const headingAccentStyles = {
   color: "#663399",
-  marginTop: 0,
-  marginBottom: 15,
-  maxWidth: 1500,
+
 }
 const paragraphStyles = {
   marginTop:21,
@@ -120,7 +117,7 @@ const links = [
     text: "Dataset",
     url: "https://drive.google.com/drive/folders/1XIW_dvrKchUXyvQOobIoiWTdZmyZxu6G",
     description:
-      "Purchasing Single Family Home Mortgage applications from 2014-2021 in 24 states that have at some point seen political change at the Congressional District Level. ",
+      "Purchasing Single Family Home Mortgage applications from 2014-2021 in 24 states that at some point in time went through political change at the Congressional District Level.",
     color: "#8EB814",
   },
   {
@@ -138,13 +135,13 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1 style={headingStyles}>2014-2021 Mortgage, Population, Social and Governance Indicators Dataset
         <br />
-        <span style={headingAccentStyles}>2014-2021 mortgage, population, social and governance indicators Dataset</span>
+        <span style={headingAccentStyles}></span>
         
         <p>Data Source: Recursions HMDA Analyzer</p>
       </h1>
-          <p style={paragraphStyles}>Created by Brian Rochford, Dr.Chang, Dr.Wang, Dr.Yan</p>
+        <p style={paragraphStyles}>Created by Brian Rochford, Dr.Chang, Dr.Wang, Dr.Yan</p>
       
       <ul style={listStyles}>
         <li style={docLinkStyle}>
