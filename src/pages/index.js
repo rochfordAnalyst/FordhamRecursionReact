@@ -9,6 +9,7 @@ const pageStyles = {
 }
 
 const headingStyles = {
+  color: "#663399",
   marginTop: 0,
   marginBottom: 15,
   maxWidth: 1500,
@@ -86,24 +87,29 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Mortgage Application Count by DemToRepubCounty, State, Race, Year",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/allYearsRecursionUserOptions/ItemCountbyDemToRepubCountyStateRaceandYear?publish=yes",
+    text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/DemToRepubCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagDemToRepubCountyStateRaceandYear?publish=yes",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Item Count Distribution based on multiple dimension options in dataset",
     color: "#E95800",
   },
   {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    text: "Mortgage Application Count by RepubToDemCounty, FHFA LowIncomeArea, State, Race, Year",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/RepubToDemCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagRepubToDemCountyStateRaceandYear?publish=yes",
     description:
       "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
     color: "#1099A8",
   },
   {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "",
+    text: "Approval Rates by County in DemToRepub Flip States",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/MapOptionsDemToRepubFlipStateLowIncomeStatePopulationYear/CountyMapbyApprovalRatesandPopulationGreaterthan44000in2019populationDemToRepubFlipState?publish=yes",
+    description: "Map has paramater control for total population, and dimension options for low income areas, year, demToRepubFlipState",
+    color: "#BC027F",
+  },
+  {
+    text: "Approval Rates by County in RepubToDem Flip States",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/MapOptionsRepubToDemFlipStateLowIncomeStatePopulationYear/CountyMapbyApprovalRatesandPopulationGreaterthan44000in2019populationDemToRepubFlipState2#2",
+    description: "Map has paramater control for total population, and dimension options for low income areas, year, repubToDemFlipState",
     color: "#BC027F",
   },
   {
