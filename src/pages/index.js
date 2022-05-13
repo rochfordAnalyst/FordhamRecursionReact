@@ -88,6 +88,13 @@ const badgeStyle = {
 const links = [
   {
     text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/approvalbyStatesenate/AverageApprovalRatesbyStateandSenateControlRepresentingColor?publish=yes",
+    description:
+      "Average Approval Rate by State with Color representing State Senate control over time",
+    color: "#E95800",
+  },
+  {
+    text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/DemToRepubCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagDemToRepubCountyStateRaceandYear?publish=yes",
     description:
       "Item count line chart by State over time. Dimensions to filter include demToRepubCountyFlip, Low Income Area, Year, Race, State ",
