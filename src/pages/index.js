@@ -88,36 +88,18 @@ const badgeStyle = {
 const links = [
   {
     text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
+    url: "https://public.tableau.com/app/profile/brian.rochford/viz/datasetvisuals/datasetvisualization?publish=yes",
+    description:
+      "This story created in tableau visualizes this dataset from several different angles, with objective on developing a better understanding of the data. Especially the newly created binary dummy variables based on congressional districts politcal change during an election cycle.",
+    color: "#E95800",
+  },
+
+  {
+    text: "Average Mortgage Application Approval Rate - Color Representing which Political Party has State Senate Control",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/approvalbyStatesenate/AverageApprovalRatesbyStateandSenateControlRepresentingColor?publish=yes",
     description:
-      "Average Approval Rate by State with Color representing State Senate control over time",
+      "The map is showing average approval rate by State with color representing State Senate control over time.",
     color: "#E95800",
-  },
-  {
-    text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/DemToRepubCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagDemToRepubCountyStateRaceandYear?publish=yes",
-    description:
-      "Item count line chart by State over time. Dimensions to filter include demToRepubCountyFlip, Low Income Area, Year, Race, State ",
-    color: "#E95800",
-  },
-  {
-    text: "Mortgage Application Count by RepubToDemCounty, FHFA LowIncomeArea, State, Race, Year",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/RepubToDemCountyLowIncomeStateRaceYear/ItemCountbyFHFALowIncomeAreaFlagRepubToDemCountyStateRaceandYear?publish=yes",
-    description:
-      "Item count line chart by State over time. Dimensions to filter include repubToDemCountyFlip, Low Income Area, Year, Race, State",
-    color: "#1099A8",
-  },
-  {
-    text: "Approval Rates by County in DemToRepub Flip States",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/MapOptionsDemToRepubFlipStateLowIncomeStatePopulationYear/CountyMapbyApprovalRatesandPopulationGreaterthan44000in2019populationDemToRepubFlipState?publish=yes",
-    description: "Map has paramater control for total population, and dimension options for low income areas, year, demToRepubFlipState",
-    color: "#BC027F",
-  },
-  {
-    text: "Approval Rates by County in RepubToDem Flip States",
-    url: "https://public.tableau.com/app/profile/brian.rochford/viz/MapOptionsRepubToDemFlipStateLowIncomeStatePopulationYear/CountyMapbyApprovalRatesandPopulationGreaterthan44000in2019populationDemToRepubFlipState2#2",
-    description: "Map has paramater control for total population, and dimension options for low income areas, year, repubToDemFlipState",
-    color: "#BC027F",
   },
   {
     text: "Code Glossary Book",
