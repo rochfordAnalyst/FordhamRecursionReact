@@ -87,7 +87,7 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Mortgage Application Count by DemToRepubCounty, FHFA LowIncomeArea, State, Race, Year",
+    text: "Fordham Recursion - Analyzing Differences in Mortgage Markets based on Changes in Political Party Control",
     url: "https://public.tableau.com/app/profile/brian.rochford/viz/datasetvisuals/datasetvisualization?publish=yes",
     description:
       "This story created in tableau visualizes this dataset from several different angles, with objective on developing a better understanding of the data. Especially the newly created binary dummy variables based on congressional districts politcal change during an election cycle.",
